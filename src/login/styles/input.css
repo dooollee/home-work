@@ -1,0 +1,20 @@
+/* 입력창 컴포넌트 */
+.input {
+  font-size: 14px;
+  input {
+    inline-size: 18.125rem;
+    block-size: 3rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+
+    @media (min-width: 40rem) {
+      inline-size: 28.75rem;
+      block-size: 3rem;
+    }
+
+    &:focus {
+      outline-color: #03cf5d;
+      background-color: #e9f0fd;
+    }
+  }
+}

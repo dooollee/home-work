@@ -1,0 +1,13 @@
+/* 로고 컴포넌트 */
+.logo {
+  img {
+    inline-size: 10.25rem;
+    block-size: 2rem;
+    display: block;
+
+    @media (min-width: 40rem) {
+      inline-size: 14.375rem;
+      block-size: 2.75rem;
+    }
+  }
+}

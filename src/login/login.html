@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인 창</title>
+    <link
+      rel="shortcut icon"
+      href="/src/assets/favicon/likelion.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/src/assets/favicon/likelion.svg" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
+    <link rel="stylesheet" href="/src/login/styles/style.css " />
+  </head>
+  <body>
+    <!-- 로고 컴포넌트 -->
+    <!-- <div class="logo">
+      <a href="http://www.naver.com">
+        <svg
+          width="165"
+          height="32"
+          viewBox="0 0 165 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21.5765 17.1196L9.77815 0H0V31.9872H10.2436V14.8677L22.042 31.9872H31.8202V0H21.5765V17.1196Z"
+            fill="#03CF5D"
+          />
+          <path
+            d="M47.4975 0L35.0785 31.9872H45.6356L47.1334 27.7649H59.0363L60.5372 32H71.0911L58.6721 0.0127976L47.4975 0ZM49.5463 20.0688L53.0864 10.076L56.6234 20.0688H49.5463Z"
+            fill="#03CF5D"
+          />
+          <path
+            d="M83.6652 21.0316L76.2113 0H65.6573L78.0764 31.9872H89.2509L101.67 0H91.1129L83.6652 21.0316Z"
+            fill="#03CF5D"
+          />
+          <path
+            d="M115.017 19.8353H129.453V12.1519H115.017V7.84006H129.608V0H104.928V31.9872H129.918V24.1471H115.017V19.8353Z"
+            fill="#03CF5D"
+          />
+          <path
+            d="M156.995 21.0124L157.945 20.6062C161.625 19.0516 163.496 15.6833 163.496 11.4098C163.496 7.36985 162.036 4.37265 159.161 2.52699C156.485 0.802882 153.018 0 148.243 0H134.887V31.9872H144.82V23.05H148.392L154.443 31.9872H165L156.995 21.0124ZM150.098 14.8964H144.665V8.15354H150.098C150.984 8.15354 151.833 8.50875 152.458 9.14102C153.084 9.77329 153.436 10.6308 153.436 11.525C153.436 12.4192 153.084 13.2767 152.458 13.909C151.833 14.5412 150.984 14.8964 150.098 14.8964Z"
+            fill="#03CF5D"
+          />
+        </svg>
+      </a>
+    </div> -->
+    <!-- 입력창 컴포넌트 -->
+    <!-- <div class="input">
+      <label for="" class="sr-only">라벨</label>
+      <input type="text" required placeholder="여기 입력하세요" />
+    </div> -->
+    <!-- 로그인 버튼 컴포넌트 -->
+    <!-- <div class="btn">
+      <button type="submit" class="btn-login">로그인</button>
+    </div> -->
+    <!-- 로그인 상태 유지 체크박스 컴포넌트 -->
+    <!-- <div class="checkbox">
+      <label for="stay-log-checkbox">
+        <input id="stay-log-checkbox" type="checkbox" />
+        <span class="checkbox-img"></span>
+        <span class="label">로그인 상태 유지</span>
+      </label>
+    </div>
+    <hr /> -->
+    <!-- ****************************************** -->
+    <div class="logo">
+      <a href="http://www.naver.com">
+        <img src="/src/login/src/logo.svg" alt="네이버" />
+      </a>
+    </div>
+    <form action="/" class="form-login">
+      <fieldset>
+        <legend class="sr-only">로그인 폼</legend>
+        <div class="input">
+          <label for="userId" class="sr-only">아이디</label>
+          <input
+            type="text"
+            id="userId"
+            required
+            placeholder="아이디(이메일)"
+          />
+        </div>
+
+        <div class="input">
+          <label for="userPw" class="sr-only">비밀번호</label>
+          <input type="password" id="userPw" required placeholder="비밀번호" />
+        </div>
+
+        <div class="btn">
+          <button type="submit" class="btn-login">로그인</button>
+        </div>
+      </fieldset>
+      <div class="checkbox">
+        <label for="stay-log-checkbox">
+          <input id="stay-log-checkbox" type="checkbox" />
+          <span class="checkbox-img"></span>
+          <span class="label">로그인 상태 유지</span>
+        </label>
+      </div>
+
+      <div class="security">
+        <a href="./pages/ip_secruity.html" target="_blank">IP보안</a>
+        <input type="checkbox" id="" />
+        <label for="" class="">
+          <span class=""></span>
+        </label>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.security {
+  display: none;
+  font-size: 1rem;
+
+  @media (min-width: 40rem) {
+    display: block;
+    float: right;
+  }
+}

@@ -1,0 +1,61 @@
+@import "/src/common/a11y.css";
+@import "/src/login/styles/base.css";
+@import "/src/login/styles/logo.css";
+@import "/src/login/styles/input.css";
+@import "/src/login/styles/checkbox.css";
+@import "/src/login/styles/btn.css";
+@import "/src/login/styles/security.css";
+
+body {
+  text-align: center;
+  margin-inline: 1.25rem;
+
+  *:focus {
+    outline-color: var(--focus-color);
+  }
+}
+
+.logo {
+  a {
+    display: block;
+    margin-top: 4.375rem;
+    margin-bottom: 2.8125rem;
+
+    img {
+      display: block;
+      margin-inline: auto;
+    }
+  }
+}
+
+.form-login {
+  border: 0;
+  inline-size: 18.125rem;
+  block-size: 13.875rem;
+  margin: 0 auto;
+
+  fieldset {
+    border: 0;
+  }
+
+  @media (min-width: 40rem) {
+    inline-size: 28.75rem;
+    block-size: 13.875rem;
+  }
+}
+
+.input {
+  margin-bottom: 0.625rem;
+}
+
+.btn {
+  margin-top: 1.25rem;
+}
+
+.checkbox {
+  margin-top: 0.625rem;
+}
+
+.security {
+  margin-top: 0.625rem;
+}

@@ -1,0 +1,31 @@
+:root {
+  --regular-font-size: 14px;
+  --font-color: #121212;
+
+  --border-color: #dadada;
+  --bg-color: #fff;
+  --focus-color: #24388d;
+
+  /* --desktop-size: 48rem; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: var(--regular-font-size);
+  color: var(--font-color);
+}
+
+body*,
+body *::after,
+body *::before {
+  box-sizing: border-box;
+
+  color: var(--font-color);
+  font-size: var(--regular-font-size);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
