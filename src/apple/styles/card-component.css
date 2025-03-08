@@ -1,0 +1,81 @@
+@import "./reset.css";
+@import "./theme.css";
+@import "./base.css";
+@import "./button-component.css";
+
+body {
+  margin: 1.25rem;
+}
+
+.container {
+  width: 100vw;
+  height: 31.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card-component-1 {
+  --name-text-size: var(--large-text);
+  --explain-text-size: var(--medium-text);
+  --date-text-size: var(--small-size);
+  --text-color: var(--white);
+
+  text-align: center;
+  display: inline-block;
+  margin-top: var(--large-spacing);
+  color: var(--text-color);
+  background-color: transparent;
+
+  .product-name {
+    font-size: var(--name-text-size);
+  }
+
+  .product-explain {
+    font-size: var(--explain-text-size);
+    margin-block: var(--small-spacing);
+    margin-inline: 0.25rem;
+    p {
+      margin-bottom: var(--x-small-spacing);
+    }
+  }
+  .release-date {
+    font-size: var(--date-text-size);
+    color: var(--gray);
+    margin-block: var(--small-spacing);
+  }
+}
+
+.card-component-2 {
+  --name-text-size: var(--large-text);
+  --explain-text-size: var(--medium-text);
+  --date-text-size: var(--small-size);
+  --text-color: var(--black);
+
+  text-align: center;
+  display: inline-block;
+  margin-top: var(--large-spacing);
+  color: var(--text-color);
+  background-color: transparent;
+
+  .product-name {
+    font-size: var(--name-text-size);
+  }
+
+  .product-explain {
+    font-size: var(--explain-text-size);
+    margin-block: var(--small-spacing);
+    margin-inline: 0.25rem;
+    p {
+      margin-bottom: var(--x-small-spacing);
+    }
+  }
+  .release-date {
+    font-size: var(--date-text-size);
+    color: var(--gray);
+    margin-block: var(--small-spacing);
+  }
+  .btn-component {
+    --btn-color: var(--black);
+    --btn-hover-color: rgb(91, 91, 91);
+  }
+}

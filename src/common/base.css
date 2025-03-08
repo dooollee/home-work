@@ -1,0 +1,21 @@
+/* body 기본 스타일 */
+body {
+  font-family: 'SUIT', sans-serif;
+  color: #121212;
+  background-color: #fff;
+  line-height: 1.15;
+  font-weight: 300;
+}
+
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.components-container {
+  padding: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 1rem;
+}

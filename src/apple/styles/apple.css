@@ -1,0 +1,92 @@
+@import "./card-component.css";
+
+/* 카드 레이아웃 */
+.apple {
+  --fullscreen-top-margin: var(--extra-large-spacing);
+
+  display: grid;
+  gap: 16px;
+}
+
+.ipad-pro {
+  background: url(../products/ipad_pro.jpeg);
+  background-size: cover;
+  background-position: center;
+
+  @media (min-width: 1024px) {
+    background: url(../products/ipad_pro_wide_2x.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+.ipad-air {
+  background: url(../products/ipad_air.jpeg);
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 1024px) {
+    background: url(../products/ipad_air_wide_2x.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+.iphone-15-pro {
+  background: url(../products/iphone15_pro.jpeg);
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 1024px) {
+    background: url(../products/iphone15_pro_wide_2x.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31.375rem, 1fr));
+  gap: 16px;
+}
+
+.iphone-15 {
+  background: url(../products/iphone15.jpeg);
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 1024px) {
+    width: 50vw;
+    background: url(../products/iphone15_2x.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+.watch {
+  background: url(../products/apple_watch.jpeg);
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 1024px) {
+    width: 50vw;
+    background: url(../products/apple_watch_2x.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+.macbook-air {
+  background: url(../products/macbook_air.jpeg);
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 1024px) {
+    width: 50vw;
+    background: url(../products/macbook_air_2x.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+.airpod-pro {
+  background: url(../products/airpods_pro.jpeg);
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 1024px) {
+    width: 50vw;
+    background: url(../products/airpods_pro_2x.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+}
